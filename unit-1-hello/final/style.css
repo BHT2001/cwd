@@ -1,6 +1,7 @@
-body { background-color:#D3D3D3; color: #000000; font-size: 15px; font-family: "times new roman";}
+body { background-color:#D3D3D3; color: #000000; font-size: 15px; font-family: "Comic Sans MS", "Comic Sans", cursive;}
 body {border-width: 5px; border-style: dotted; border-color: #FFFFFF}
 .bird-right {width: 250px; position: absolute; top: 200px; right: 25px;}
 .bird-left {width: 250px; position: absolute; top: 200px; left: 25px;}
 textarea {width: 500px; position: absolute; bottom: 50px; left: 100px; background-color: #FF000;
+
 border-width: 15px; border-style: solid; border-color: #FF0000; font-family: "times new roman"}
