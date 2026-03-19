@@ -1,0 +1,31 @@
+body { background-color:#101010; color: #CACACA; font-size: 15px; font-family: "Trade Gothic Bold Condensed No20";}
+
+body {border-width: 5px; border-style: solid; border-color: #696969;}
+
+.right-pair {width: 400px; height: 300px; position: absolute; top: 400px; right: 25px;}
+.right-pair:hover {outline: 5px solid black;}
+.right-pair:hover .game {opacity: 0;}
+
+.background1 {width: 400px; height: 300px; position: absolute; top: 0px; right: 0px; opacity: 1;}
+
+.game {width: 400px; height: 300px; position: relative; top: 0px; right: 0px; opacity: 1; transition: opacity 1s;}
+
+.left-pair {width: 400px; height: 300px; position: absolute; top: 400px; left: 25px;}
+.left-pair:hover {outline: 5px solid black;}
+.left-pair:hover .classic {opacity: 0;}
+
+.background2 {width: 400px; height: 300px; position: absolute; top: 0px; left: 0px; opacity: 1;}
+
+.classic {width: 400px; height: 300px; position: absolute; top: 0px; left: 0px; opacity: 1; transition: opacity 1s;}
+
+.text-full p {font-size: 14px; margin-bottom: 20px; line-height: 1.5;}
+.text-full {display: flex; gap: 40px; justify-content: space-between;}
+.lefy-group,
+.right-group {flex:1;}
+#f76 {width: 500px; bottom: 0px; left: 0px; background-color: #101010;;
+
+#starfield {width: 500px; bottom: 0px; left: 0px; background-color: #101010;
+
+#redfall {width: 500px; bottom: 0px; left: 0px; background-color: #101010;
+
+#layoff {width: 500px; bottom: 0px; left: 0px; background-color: #101010;
