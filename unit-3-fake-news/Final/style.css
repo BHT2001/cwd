@@ -1,0 +1,103 @@
+body { background-color:#000000; color: #000000; font-size: 12px; font-family: "Zen Old Mincho";}
+
+.center-space {
+    width: 500px;
+    height: 650px;
+    position: absolute;
+    left: 512px;
+    top: 25px;
+    background-color: whitesmoke;}
+    .center-space img {
+    width: 500px;
+    height: 250px;
+    object-fit: cover;}
+.center-space-text {
+	width: 490px;
+    height: 290px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 7.5px;}
+
+.top-left {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    left: 150px;
+    top: 25px;
+    background-color: whitesmoke;}
+    .top-left img {
+    width: 350px;
+    height: 150px;
+    object-fit: fill;}
+.top-left-text {
+	width: 350px;
+    height: 145px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;}
+
+    .bottom-left {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    left: 150px;
+    top: 375px;
+    background-color: whitesmoke;}
+    .bottom-left img {
+    width: 350px;
+    height: 150px;
+    object-fit: fill;}
+.bottom-left-text {
+	width: 350px;
+    height: 145px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;}
+
+    .top-right {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    right: 150px;
+    top: 25px;
+    background-color: whitesmoke;}
+    .top-right img {
+    width: 350px;
+    height: 125px;
+    object-fit: fill;}
+.top-right-text {
+	width: 350px;
+    height: 120px;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 5px;}
+
+    .bottom-right {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    right: 150px;
+    top: 375px;
+    background-color: whitesmoke;}
+    .bottom-right img {
+    width: 350px;
+    height: 125px;
+    object-fit: fill;}
+.bottom-right-text {
+	width: 350px;
+    height: 120px;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 5px;}
+
+    .logo {
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    background-color: whitesmoke;}
+    .logo img {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;}
