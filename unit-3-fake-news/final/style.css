@@ -1,0 +1,80 @@
+body { background-color:#000000; color: #000000;}
+
+.container {
+    margin-top: 40px;}
+
+.center-space {
+    width: 100%;
+    background-color: whitesmoke;}
+    .center-space img {
+    width: 100%;}
+.center-text {
+    font-family: "Zen Old Mincho", serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7.5px;}
+
+.top-left {
+    width: 100%;
+    position: relative;
+    background-color: whitesmoke;}
+    .top-left img {
+    width: 100%;}
+.top-left-text {
+    font-family: "Zen Old Mincho", serif;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;}
+
+    .bottom-left {
+    width: 100%;
+    background-color: whitesmoke;}
+    .bottom-left img {
+    width: 100%;}
+.bottom-left-text {
+    font-family: "Zen Old Mincho", serif;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;}
+
+    .top-right {
+    width: 100%;
+    background-color: whitesmoke;}
+    .top-right img {
+    width: 100%;}
+.top-right-text {
+    font-family: "Zen Old Mincho", serif;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;}
+
+    .bottom-right {
+    width: 100%;
+    background-color: whitesmoke;}
+    .bottom-right img {
+    width: 100%;}
+.bottom-right-text {
+    font-family: "Zen Old Mincho", serif;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;}
+
+    .logo {
+    width: 100%;
+    background-color: whitesmoke;}
+    .logo img {
+    max-width: 100%;
+    height: auto;}
+
+    .title {
+        position: absolute;
+        letter-spacing: 2px;
+        top: 5px;
+        left: 120px;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 7.5px;
+        display: inline-block;
+        background-color: whitesmoke;
+        text-transform: uppercase;
+        font-family: "Abril Fatface", serif;}
