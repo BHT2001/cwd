@@ -1,0 +1,175 @@
+body { background-color:#9c9c9c; color: #000000;}
+.topleft img.fade-out, .leftcenter img.fade-out, .bottomleft img.fade-out {opacity: 0;}
+.toprightfirsttext.revealed,
+.toprightsecondtext.revealed,
+.bottomrightfirsttext.revealed,
+.bottomrightsecondtext.revealed
+{opacity: 1;}
+
+.container {
+    margin-top: 40px;}
+
+.topleft {
+    min-height: 200px;
+    position: relative;
+    background-color: whitesmoke;}
+    .topleft img {
+    border-style: solid;
+    border-width: 5px;
+    border-color: blueviolet;
+    z-index: 2;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 1; transition: opacity 1s;}
+.toplefttext {
+    position: relative;
+    z-index: 1;
+    font-family: "Zen Old Mincho", serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7.5px;}
+
+.leftcenter {
+    min-height: 200px;
+    position: relative;
+    background-color: whitesmoke;}
+.leftcenter img {
+    border-style: solid;
+    border-width: 5px;
+    border-color: blueviolet;
+    z-index: 2;
+     height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 1; transition: opacity 1s;}
+.centerlefttext {
+    position: relative;
+    z-index: 1;
+    font-family: "Zen Old Mincho", serif;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;}
+
+    .bottomleft {
+    min-height: 200px;
+    position: relative;
+    background-color: whitesmoke;}
+.bottomleft img {
+    border-style: solid;
+    border-width: 5px;
+    border-color: blueviolet;
+    z-index: 2;
+     height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 1; transition: opacity 1s;}
+.bottomlefttext {
+    position: relative;
+    z-index: 1;
+    font-family: "Zen Old Mincho", serif;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;}
+
+    .middleleftspace {
+    background-color: whitesmoke;}
+.middlelefttext {
+    font-family: "Zen Old Mincho", serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;}
+
+    .middlerightspace {
+    background-color: whitesmoke;}
+.middlerighttext {
+    font-family: "Zen Old Mincho", serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;}
+
+        .toprightfirst {
+    background-color: whitesmoke;}
+.trbox1 {
+    color: blueviolet;
+    font-family: "Zen Old Mincho", serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;}
+
+.toprightfirsttext {opacity: 0; transition: opacity 1s;
+    color: black;
+    font-family: "Zen Old Mincho", serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;}
+
+        .toprightsecond {
+    background-color: whitesmoke;}
+.trbox2 {
+    color: blueviolet;
+    font-family: "Zen Old Mincho", serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;}
+
+.toprightsecondtext {opacity: 0; transition: opacity 1s;
+    color: black;
+    font-family: "Zen Old Mincho", serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;}
+
+            .bottomrightfirst {
+    background-color: whitesmoke;}
+.brbox1 {
+    color: blueviolet;
+    font-family: "Zen Old Mincho", serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;}
+
+.bottomrightfirsttext {opacity: 0; transition: opacity 1s;
+    color: black;
+    font-family: "Zen Old Mincho", serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;}
+
+            .bottomrightsecond {
+    background-color: whitesmoke;}
+.brbox2 {
+    color: blueviolet;
+    font-family: "Zen Old Mincho", serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;}
+
+.bottomrightsecondtext {opacity: 0; transition: opacity 1s;
+    color: black;
+    font-family: "Zen Old Mincho", serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;}
+
+    .title {
+        position: absolute;
+        letter-spacing: 2px;
+        top: 5px;
+        left: 120px;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 7.5px;
+        display: inline-block;
+        background-color: whitesmoke;
+        text-transform: uppercase;
+        font-family: "Abril Fatface", serif;}
