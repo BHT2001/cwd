@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>No Man's Sky World Variation Data Graph</title>
+<!--
+About this page: My design choice is simple yet informative, focusing on the interactive flourish graphs rather than the text information. The present information I believe portrays the data exactly as needed and listed for this project in its entirety. The primary goal was solely just to ensure the embedding of the links for the graphs were secure and functioning in its entirety with interactive underlining of the graphs titles. What I have noticed is that links to floursih show up automatically with the graphs being present underneath them.
+-->
+
+<!--
+AI was used to aid in not creation or primary coding, but to error check mistakes, make sure I was not missing a single ';' or ),],} that wouldv'e left this product unusable. My main priority was to ensure what I turn in, works. The site is meant not to be bland as other projects were turned in as.-->
+
+<!--This work belongs to me, Brandon Torres. The only information looked up directly was the embed proper code formations along with pictures taken during class. The formations and sizes of the borders may be misalligned, I am still trying to figure out how to get it centered properly.-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="page">
+<div class="mainbox">
+<section class="leftside">
+<div class="graphbox">
+<button class="graphbutton active"
+data-title="Type / Spawn"
+data-description="This graph shows the different world types in No Man’s Sky and their possible spawn rates.">
+TYPE
+</button>
+<div class="flourish-embed flourish-hierarchy" data-src="visualisation/28726698">
+<noscript>
+<img src="https://public.flourish.studio/visualisation/28726698/thumbnail" width="100%" alt="Type and spawn hierarchy visualization">
+</noscript>
+</div>
+</div>
+<div class="graphbox">
+<button class="graphbutton"
+data-title="Environment / Danger"
+data-description="This graph compares world environments with danger information.">
+ENVIRONMENT
+</button>
+<div class="flourish-embed flourish-hierarchy" data-src="visualisation/28726817">
+<noscript>
+<img src="https://public.flourish.studio/visualisation/28726817/thumbnail" width="100%" alt="Environment and danger hierarchy visualization">
+</noscript>
+</div>
+</div>
+<div class="graphbox">
+<button class="graphbutton"
+data-title="Danger / Danger Level"
+data-description="This graph focuses on danger categories and danger levels.">
+DANGER
+</button>
+<div class="flourish-embed flourish-hierarchy" data-src="visualisation/28726944">
+<noscript>
+<img src="https://public.flourish.studio/visualisation/28726944/thumbnail" width="100%" alt="Danger level hierarchy visualization">
+</noscript>
+</div>
+</div>
+<div class="graphbox">
+<button class="graphbutton"
+data-title="Anomaly / Size"
+data-description="This graph shows anomaly-based world data and size-related information.">
+ANOMALY
+</button>
+<div class="flourish-embed flourish-hierarchy" data-src="visualisation/28726958">
+<noscript>
+<img src="https://public.flourish.studio/visualisation/28726958/thumbnail" width="100%" alt="Anomaly and size hierarchy visualization">
+</noscript>
+</div>
+</div>
+</section>
+<aside class="rightside">
+<h1>NO MAN’S SKY WORLD VARIATION DATA GRAPH</h1>
+<p class="maker">
+Made by:<br>
+Brandon Torres
+</p>
+
+<p class="intro">
+This graph represents the different worlds in No Man’s Sky in terms of danger, type, wildlife, size, natural hazards, and descriptions.
+</p>
+
+<div class="bottomimage">
+<img src="RELICS.jpg" alt="A No Man's Sky Relics landscape image showing the player standing before a large stone creature/guardian on a snow planet.">
+</div>
+<!-- Photo by <a href:"https://i.ytimg.com/vi/B3TWSQHaIMw/maxresdefault.jpg"-->
+
+<div class="databox">
+<h2>DATA</h2>
+<div class="selectedbox">
+<h3 id="datatitle">Information</h3>
+<p id="datadescription">
+This visualization shows the different world and planet types found in No Man’s Sky, organized into categories that can be used to compare their possible spawn rates, environmental conditions, danger levels, and unusual anomaly-based variations. The graph is designed to show how planet types connect to broader gameplay factors such as hazards, life possibilities, and exploration risk.
+</p>
+
+</div>
+<div class="datalist">
+<p><strong>Type:</strong> The Type graph focuses on the main world types and biome categories in No Man’s Sky. It shows planet groups such as lush, barren, frozen, toxic, scorched, radioactive, exotic, volcanic, marsh, dead, waterworld, and gas giant planets. Each section is paired with an estimated spawn-rate value, allowing the viewer to compare which planet types may be more common or rare during exploration.</p>
+
+<p><strong>Environment:</strong> The Environment graph organizes planets by the kinds of environmental conditions they may have. This includes safer natural environments, extreme weather planets, hazardous biomes, dead or low-atmosphere worlds, and unusual exotic conditions. This sheet helps show how a planet’s environment affects exploration, resource gathering, survival difficulty, and the chance of finding organic, synthetic, or anomaly-based life.</p>
+
+<p><strong>Danger:</strong> The Danger Level graph ranks planet types based on their overall risk and severity. Lower-danger worlds are generally easier to explore, while higher-danger planets may include extreme temperatures, toxic storms, radiation, volcanic activity, aggressive sentinels, or limited survival conditions. This section helps connect each planet type to the level of preparation a player may need before landing and exploring.</p>
+
+<p><strong>Anomaly:</strong> The Anomaly graph focuses on unusual or rare planet variations, including exotic, mega exotic, corrupted, infested, dissonant, and other abnormal world types. These worlds often have strange visuals, unusual terrain, rare objects, or special lifeforms. The size-based values help show how these anomaly-related worlds compare against each other and how rare or significant they may be compared to more standard planets.</p>
+</div>
+</div>
+</aside>
+</div>
+</main>
+<script src="https://public.flourish.studio/resources/embed.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
