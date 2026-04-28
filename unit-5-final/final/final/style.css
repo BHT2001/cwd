@@ -1,0 +1,65 @@
+* {box-sizing: border-box;}
+
+body {margin: 0; background-color: #c8b879; font-family: Arial, Helvetica, sans-serif;}
+
+.page {min-height: 100vh; background-color: #c8b879; padding: 8px; display: flex; justify-content: center; align-items: flex-start;}
+
+.mainbox {width: 98vw; max-width: 1800px; min-height: 650px; background-color: white;
+display: grid; grid-template-columns: 58% 42%; column-gap: 12px; padding: 0;}
+
+.leftside {display: grid; grid-template-columns: 1fr 1fr; column-gap: 9px; row-gap: 23px; align-content: start;}
+
+.graphbox {background-color: #b76566; min-height: 560px; padding: 12px 10px; overflow: visible; display: flex; flex-direction: column;}
+
+.graphbutton {background: none; border: none; color: white; font-size: 1.8rem; font-style: italic;
+font-weight: 900; line-height: 1; padding: 0; margin: 0 0 8px 0; text-align: left; cursor: pointer;}
+
+.graphbutton:hover { text-decoration: underline;}
+
+.graphbutton.active {text-decoration: underline; text-underline-offset: 5px;}
+
+.flourish-embed {width: 100%; height: 480px; min-height: 480px; background-color: white; flex: 1;}
+
+.flourish-embed iframe {width: 100% !important; height: 100% !important; min-height: 480px !important;}
+
+.rightside {background-color: white; padding: 12px 18px 20px 0;}
+
+.rightside h1 {color: black; font-size: 1.48rem; font-weight: 900; line-height: 1.15; margin: 0 0 24px 0;}
+
+.maker {color: black; font-size: 0.75rem; font-weight: 700; line-height: 1.15; margin: 0 0 26px 0;}
+
+.intro {color: black; font-size: 0.95rem; font-weight: 800; line-height: 1.15; margin: 0 0 8px 0;}
+
+.databox {background-color: #61d5bd; min-height: 437px; padding: 12px;}
+
+.databox h2 {color: white; font-size: 2.1rem; font-style: italic; font-weight: 900; line-height: 1; margin: 0 0 20px 0;}
+
+.selectedbox {background-color: rgba(255, 255, 255, 0.25); padding: 10px; margin-bottom: 15px;}
+
+.selectedbox h3 {color: black; font-size: 1.25rem; font-weight: 900; margin-bottom: 8px;}
+
+.selectedbox p,
+.datalist p {color: black; font-size: 0.88rem; font-weight: 600; line-height: 1.2;}
+
+@media (max-width: 900px) {
+.mainbox {grid-template-columns: 1fr; row-gap: 12px;}
+
+.rightside {padding: 0;}
+
+.graphbox {min-height: 560px;}
+
+.flourish-embed,
+.flourish-embed iframe {height: 480px !important; min-height: 480px !important;}}
+
+@media (max-width: 600px) {
+.leftside {grid-template-columns: 1fr;}
+
+.graphbutton {font-size: 1.5rem;}
+
+.graphbox {min-height: 600px;}
+
+.flourish-embed,
+.flourish-embed iframe {height: 520px !important; min-height: 520px !important;}}
+
+.bottomimage {width: 100%; margin-top: 18px; background-color: whitesmoke;}
+.bottomimage img {width: 100%; max-width: 100%; height: auto; display: block;}
